@@ -218,7 +218,7 @@ void loop() {
       
       delay(5000); // Afficher pendant 5 secondes
       
-      // Retour à l'affichage d'attente - bien nettoyer d'abord
+      // Retour à l'affichage d'attente
       lcd.clear();
       delay(100); // Petite pause pour s'assurer que le clear est effectif
       lcd.setRGB(10, 10, 10);
