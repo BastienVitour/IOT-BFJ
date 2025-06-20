@@ -105,9 +105,6 @@ const uint16_t port = 8000;                  // Port d'écoute du Raspberry Pi
 |------|--------|-----------|
 | `C` ou `CREATE_FILE` | Création | "X a cree" |
 | `D` ou `UNLINKAT` | Suppression | "X a supprime" |
-| `M` ou `MODIFY` | Modification | "X a modifie" |
-| `OPEN` | Ouverture | "X a ouvert" |
-| `CLOSE` | Fermeture | "X a ferme" |
 
 ### Exemple
 
@@ -131,13 +128,13 @@ document.txt
    - Fichier → Préférences
    - URLs supplémentaires : `https://dl.espressif.com/dl/package_esp32_index.json`
    - Outils → Type de carte → Gestionnaire de cartes
-   - Recherchez "ESP32" et installez
+   - Recherchez "esp32 by Espressif Systems" et installez
 
 ### 2. Bibliothèques
 
 Installez la bibliothèque rgb_lcd :
 - Croquis → Inclure une bibliothèque → Gérer les bibliothèques
-- Recherchez "rgb_lcd" et installez
+- Recherchez "Grove - LCD RGB Backlight by Seeed Studio" et installez
 
 ### 3. Upload du code
 
@@ -196,12 +193,12 @@ sudo netstat -tulpn | grep :8000
 
 ## 📋 Spécifications techniques
 
-- **Alimentation** : 5V via USB ou alimentation externe
-- **Consommation** : ~80mA (WiFi actif)
-- **Portée WiFi** : Selon antenne ESP32 (jusqu'à 50m)
-- **Protocole** : TCP socket
-- **Affichage** : 16 caractères × 2 lignes
-- **Temps d'affichage** : 5 secondes par notification
+- Alimentation : 5V via USB ou alimentation externe
+- Consommation : ~80mA (WiFi actif)
+- Portée WiFi : Selon antenne ESP32 (jusqu'à 50m)
+- Protocole : TCP socket
+- Affichage : 16 caractères × 2 lignes
+- Temps d'affichage : 5 secondes par notification
 
 ## 🔧 Personnalisation
 
