@@ -29,7 +29,6 @@ Mettre en place un serveur NAS léger avec surveillance en temps réel des fichi
 - Suivi des événements :
   - `create_file` pour la création de fichiers.
   - `unlinkat` pour la suppression de fichiers.
-- Les logs générés sont redirigés vers **`journalctl`**, et **pas pris en charge par rsyslog**.
 
 ### 5. Traitement des logs avec un script Python
 
@@ -39,14 +38,4 @@ Mettre en place un serveur NAS léger avec surveillance en temps réel des fichi
 ### 6. Communication en temps réel avec un projet externe
 
 - Mise en place d’un **serveur socket** en Python.
-- Le script envoie en **temps réel** les notifications Samba au projet externe connecté.
-
----
-
-## ✅ Résultat final
-
-- Partage réseau fonctionnel via Samba sur Raspberry Pi.
-- Audit en temps réel des fichiers créés et supprimés dans le dossier partagé.
-- Transmission des événements à un projet externe grâce à une architecture socket Python.
-
----
+- Le script envoie en **temps réel** les notifications Samba à l'ESP32.
