@@ -231,3 +231,8 @@ else if (action == "VOTRE_ACTION") {
 - **Bastien** - Développement/Configuration Raspberry PI
 - **Fabien** - Développement/Configuration écran LCD
 - **Julien** - Développement/Configuration écran LCD
+- 
+
+## Montage 
+
+
