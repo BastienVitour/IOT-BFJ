@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include "rgb_lcd.h"
 
-const char* ssid = "Bastien";
-const char* password = "bastien94";
+const char* ssid = "";
+const char* password = "";
 const uint16_t port = 8000;
 const char* host = "192.168.43.16";
 
