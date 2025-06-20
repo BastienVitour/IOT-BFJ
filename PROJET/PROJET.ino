@@ -38,15 +38,6 @@ String formatMessage(String rawMessage) {
   else if (action == "D" || action == "UNLINKAT") {
     line1 = user + " a supprime";
   }
-  else if (action == "M" || action == "MODIFY") {
-    line1 = user + " a modifie";
-  }
-  else if (action == "OPEN") {
-    line1 = user + " a ouvert";
-  }
-  else if (action == "CLOSE") {
-    line1 = user + " a ferme";
-  }
   else {
     line1 = user + ": " + action;
   }
